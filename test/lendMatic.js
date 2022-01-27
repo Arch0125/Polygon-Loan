@@ -1,6 +1,5 @@
 const { expect } = require('chai')
 const { ethers } = require('hardhat')
-
 describe("Testing the lendMatic() function", () => {
     let signers, LoanRequest, loanRequest, overrides, loanPurpose, loanAmount, loanDuration, borrower, lender
     beforeEach(async () => {
